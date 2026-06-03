@@ -1,0 +1,59 @@
+{
+  "siteId": "travel-with-parents-guide",
+  "generatedAt": "2026-06-02T19:22:06.172120",
+  "categories": [
+    "beginner-travel-with-parents-guide",
+    "advanced-travel-with-parents-guide",
+    "tips-travel-with-parents-guide",
+    "history-travel-with-parents-guide",
+    "trending-travel-with-parents-guide",
+    "tutorials-travel-with-parents-guide"
+  ],
+  "categoryData": [
+    {
+      "category_slug": "beginner-travel-with-parents-guide",
+      "category_name": "Beginner Travel with Parents Guide"
+    },
+    {
+      "category_slug": "advanced-travel-with-parents-guide",
+      "category_name": "Advanced Travel with Parents Guide"
+    },
+    {
+      "category_slug": "tips-travel-with-parents-guide",
+      "category_name": "Travel with Parents Guide Tips"
+    },
+    {
+      "category_slug": "history-travel-with-parents-guide",
+      "category_name": "Travel with Parents Guide History"
+    },
+    {
+      "category_slug": "trending-travel-with-parents-guide",
+      "category_name": "Trending Travel with Parents Guide"
+    },
+    {
+      "category_slug": "tutorials-travel-with-parents-guide",
+      "category_name": "Travel with Parents Guide Tutorials"
+    }
+  ],
+  "articleCount": 60,
+  "design": {
+    "site_id": "travel-with-parents-guide",
+    "color_scheme": {
+      "name": "Ocean Blue",
+      "primary": "#1e3a8a",
+      "secondary": "#3b82f6",
+      "accent": "#60a5fa",
+      "background": "#f8fafc",
+      "text": "#1e293b",
+      "light": "#f1f5f9"
+    },
+    "font": {
+      "family": "'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "heading": "'Segoe UI'",
+      "body": "Roboto"
+    },
+    "layout": "sidebar",
+    "site_title": "Travel with Parents Guide Central",
+    "articles_per_row": 4
+  }
+}
