@@ -9,6 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+    <!-- 自定义样式：控制锚定广告高度 -->
+  <style>
+    /* 方法一：通过 data 属性选择器 */
+    div[data-gpt-anchor="bottom"] {
+      height: 40px !important;      /* 调整这里的高度 */
+      min-height: 40px !important;
+      max-height: 40px !important;
+    }
+    
+    div[data-gpt-anchor="bottom"] iframe {
+      height: 40px !important;
+      max-height: 40px !important;
+    }
+    
+    /* 方法二：如果方法一不生效，使用更直接的选择器 */
+    .gpt-锚定-底部 {
+      height: 40px !important;
+    }
+    
+    .gpt-锚定-底部 iframe {
+      height: 40px !important;
+    }
+  </style>
+  
 <script>
   window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
@@ -75,6 +99,7 @@
   });
 </script>
 </head>
+    
 <body>
     <header class="header">
         <div class="container">
