@@ -12,7 +12,7 @@ window.AdConfig = {
     debugMode: false,
     
     // Active platform (null means no active platform, just placeholder slots)
-    activePlatform: 'adCode',
+    activePlatform: null,
     
     // Platform credentials (add your real IDs here when ready)
     credentials: {
